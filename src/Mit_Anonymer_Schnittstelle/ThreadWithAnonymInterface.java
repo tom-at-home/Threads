@@ -5,8 +5,7 @@ public class ThreadWithAnonymInterface {
 	int var = 650;
 
 	public static void main(String[] args){
-		
-		
+
 		Thread thread = new Thread( new Runnable() {
 			
 			public void run() {
