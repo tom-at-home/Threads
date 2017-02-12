@@ -1,6 +1,6 @@
 package Mit_Anonymer_Schnittstelle;
 
-public class ThreadWithAnonymInterface {
+public class ThreadWithAnonymousInterface {
 	String name = "Klassenname";
 	int var = 650;
 
@@ -21,10 +21,10 @@ public class ThreadWithAnonymInterface {
 		thread.start();
 		
 		while(true) {
-			try {
+			/*try {
 				Thread.sleep(1000);
 			}catch( InterruptedException e) {}
-
+*/
 			System.out.println("Ausgabe der Haupt-Prozesses");
 		}
 	}
