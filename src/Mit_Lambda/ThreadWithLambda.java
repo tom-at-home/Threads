@@ -1,6 +1,8 @@
 package Mit_Lambda;
 
 public class ThreadWithLambda {
+
+	// Testkommentar
 	String name = "Klassenname";
 	int var = 650;
 
